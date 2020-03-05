@@ -2,19 +2,6 @@
   "name": "ngx-text-diff-app",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve --open",
-    "build": "ng build",
-    "build_report": "ng build --prod --stats-json",
-    "test": "echo 1",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "build_lib": "ng build ngx-text-diff",
-    "copy-license": "copyfiles ./projects/ngx-text-diff/LICENSE ./dist/ngx-text-diff",
-    "copy-readme": "copyfiles ./projects/ngx-text-diff/README.md ./dist/ngx-text-diff",
-    "copy-files": "npm run copy-license && npm run copy-readme",
-    "npm_pack": "cd dist/ngx-text-diff && npm pack",
-    "package": "npm run build_lib && npm run copy-files && npm run npm_pack"
   },
   "engines": {
     "node": "10.19.0",
@@ -45,7 +32,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.12.2",
     "@angular-devkit/build-ng-packagr": "~0.12.2",
-    "@angular/cli": "^7.2.2",
+    "@angular/cli": "^7.3.9",
     "@angular/compiler-cli": "^7.2.1",
     "@angular/language-service": "^7.2.1",
     "@types/codemirror": "0.0.71",
@@ -66,7 +53,7 @@
     "prettier": "^1.16.1",
     "protractor": "~5.4.2",
     "ts-node": "~8.0.1",
-    "tsickle": "0.34.0",
+    "tsickle": "^0.38.1",
     "tslib": "^1.9.0",
     "tslint": "~5.12.1",
     "typescript": "~3.2.4",
