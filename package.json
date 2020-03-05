@@ -1,8 +1,7 @@
 {
   "name": "ngx-text-diff-app",
   "version": "0.0.0",
-  "scripts": {
-  },
+  "scripts": {},
   "engines": {
     "node": "10.19.0",
     "npm": "6.13.4"
