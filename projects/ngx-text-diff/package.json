@@ -1,6 +1,6 @@
 {
-  "name": "ngx-text-diff",
-  "version": "0.5.5",
+  "name": "cde-text-diff",
+  "version": "9.0.0",
   "description": "A Text Diff component for Angular.",
   "keywords": [
     "Angular",
@@ -22,10 +22,10 @@
     "diff-match-patch": "^1.0.4"
   },
   "peerDependencies": {
-    "@angular/common": ">=6.0.0",
-    "@angular/core": "^>=6.0.0",
-    "@angular/forms": "^>=6.0.0",
-    "@angular/cdk": "^>=6.0.0",
-    "rxjs": "~6.3.3"
+    "@angular/common": ">=^9.0.5",
+    "@angular/core": ">=^9.0.5",
+    "@angular/forms": ">=^9.0.5",
+    "@angular/cdk": ">=^9.1.1",
+    "rxjs":">=^6.5.4"
   }
 }

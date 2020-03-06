@@ -105,7 +105,7 @@
         }
       }
     },
-    "ngx-text-diff": {
+    "cde-text-diff": {
       "root": "projects/ngx-text-diff",
       "sourceRoot": "projects/ngx-text-diff/src",
       "projectType": "library",
