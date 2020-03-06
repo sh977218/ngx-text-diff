@@ -22,10 +22,10 @@
     "diff-match-patch": "^1.0.4"
   },
   "peerDependencies": {
-    "@angular/common": ">=^9.0.5",
-    "@angular/core": ">=^9.0.5",
-    "@angular/forms": ">=^9.0.5",
-    "@angular/cdk": ">=^9.1.1",
-    "rxjs":">=^6.5.4"
+    "@angular/common": ">=9.0.5",
+    "@angular/core": ">=9.0.5",
+    "@angular/forms": ">=9.0.5",
+    "@angular/cdk": ">=9.1.1",
+    "rxjs":">=6.5.4"
   }
 }
